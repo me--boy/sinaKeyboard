@@ -14,6 +14,31 @@
 		0D1AC9BA1B3AB13500F2839A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1AC9B91B3AB13500F2839A /* Images.xcassets */; };
 		0D1AC9BD1B3AB13500F2839A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D1AC9BB1B3AB13500F2839A /* LaunchScreen.xib */; };
 		0D1AC9C91B3AB13500F2839A /* sinaKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9C81B3AB13500F2839A /* sinaKeyboardTests.m */; };
+		0D1ACAF31B3AB16B00F2839A /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9D71B3AB16B00F2839A /* NSString+Emoji.m */; };
+		0D1ACAF41B3AB16B00F2839A /* UIImage+resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9D91B3AB16B00F2839A /* UIImage+resize.m */; };
+		0D1ACAF51B3AB16B00F2839A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9DB1B3AB16B00F2839A /* UIView+Frame.m */; };
+		0D1ACAF61B3AB16B00F2839A /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9E21B3AB16B00F2839A /* MJConst.m */; };
+		0D1ACAF71B3AB16B00F2839A /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9E51B3AB16B00F2839A /* MJFoundation.m */; };
+		0D1ACAF81B3AB16B00F2839A /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9E71B3AB16B00F2839A /* MJProperty.m */; };
+		0D1ACAF91B3AB16B00F2839A /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9E91B3AB16B00F2839A /* MJType.m */; };
+		0D1ACAFA1B3AB16B00F2839A /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9EB1B3AB16B00F2839A /* NSObject+MJCoding.m */; };
+		0D1ACAFB1B3AB16B00F2839A /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9ED1B3AB16B00F2839A /* NSObject+MJKeyValue.m */; };
+		0D1ACAFC1B3AB16B00F2839A /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9EF1B3AB16B00F2839A /* NSObject+MJProperty.m */; };
+		0D1ACAFD1B3AB16B00F2839A /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9F11B3AB16B00F2839A /* NSString+MJExtension.m */; };
+		0D1ACAFE1B3AB16B00F2839A /* RYEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9F41B3AB16B00F2839A /* RYEmotion.m */; };
+		0D1ACAFF1B3AB16B00F2839A /* RYEmotionAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9F61B3AB16B00F2839A /* RYEmotionAttachment.m */; };
+		0D1ACB001B3AB16B00F2839A /* RYComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9F91B3AB16B00F2839A /* RYComposeToolbar.m */; };
+		0D1ACB011B3AB16B00F2839A /* RYEmotionGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9FB1B3AB16B00F2839A /* RYEmotionGridView.m */; };
+		0D1ACB021B3AB16B00F2839A /* RYEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9FD1B3AB16B00F2839A /* RYEmotionKeyboard.m */; };
+		0D1ACB031B3AB16B00F2839A /* RYEmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1AC9FF1B3AB16B00F2839A /* RYEmotionListView.m */; };
+		0D1ACB041B3AB16B00F2839A /* RYEmotionPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1ACA011B3AB16B00F2839A /* RYEmotionPopView.m */; };
+		0D1ACB051B3AB16B00F2839A /* RYEmotionPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D1ACA021B3AB16B00F2839A /* RYEmotionPopView.xib */; };
+		0D1ACB061B3AB16B00F2839A /* RYEmotionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1ACA041B3AB16B00F2839A /* RYEmotionTextView.m */; };
+		0D1ACB071B3AB16B00F2839A /* RYEmotionToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1ACA061B3AB16B00F2839A /* RYEmotionToolbar.m */; };
+		0D1ACB081B3AB16B00F2839A /* RYEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1ACA081B3AB16B00F2839A /* RYEmotionView.m */; };
+		0D1ACB091B3AB16B00F2839A /* RYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1ACA0A1B3AB16B00F2839A /* RYTextView.m */; };
+		0D1ACBEA1B3AB16B00F2839A /* RYEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1ACAF21B3AB16B00F2839A /* RYEmotionTool.m */; };
+		0DD60DB61B3BA5EB00D7B355 /* source in Resources */ = {isa = PBXBuildFile; fileRef = 0DD60DB51B3BA5EB00D7B355 /* source */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +65,56 @@
 		0D1AC9C21B3AB13500F2839A /* sinaKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sinaKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1AC9C71B3AB13500F2839A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D1AC9C81B3AB13500F2839A /* sinaKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sinaKeyboardTests.m; sourceTree = "<group>"; };
+		0D1AC9D61B3AB16B00F2839A /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		0D1AC9D71B3AB16B00F2839A /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		0D1AC9D81B3AB16B00F2839A /* UIImage+resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+resize.h"; sourceTree = "<group>"; };
+		0D1AC9D91B3AB16B00F2839A /* UIImage+resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+resize.m"; sourceTree = "<group>"; };
+		0D1AC9DA1B3AB16B00F2839A /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		0D1AC9DB1B3AB16B00F2839A /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		0D1AC9DE1B3AB16B00F2839A /* keyBoardConstDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyBoardConstDefine.h; sourceTree = "<group>"; };
+		0D1AC9E11B3AB16B00F2839A /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
+		0D1AC9E21B3AB16B00F2839A /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
+		0D1AC9E31B3AB16B00F2839A /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		0D1AC9E41B3AB16B00F2839A /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		0D1AC9E51B3AB16B00F2839A /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		0D1AC9E61B3AB16B00F2839A /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		0D1AC9E71B3AB16B00F2839A /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		0D1AC9E81B3AB16B00F2839A /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		0D1AC9E91B3AB16B00F2839A /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		0D1AC9EA1B3AB16B00F2839A /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		0D1AC9EB1B3AB16B00F2839A /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		0D1AC9EC1B3AB16B00F2839A /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		0D1AC9ED1B3AB16B00F2839A /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		0D1AC9EE1B3AB16B00F2839A /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		0D1AC9EF1B3AB16B00F2839A /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		0D1AC9F01B3AB16B00F2839A /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		0D1AC9F11B3AB16B00F2839A /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		0D1AC9F31B3AB16B00F2839A /* RYEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEmotion.h; sourceTree = "<group>"; };
+		0D1AC9F41B3AB16B00F2839A /* RYEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEmotion.m; sourceTree = "<group>"; };
+		0D1AC9F51B3AB16B00F2839A /* RYEmotionAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEmotionAttachment.h; sourceTree = "<group>"; };
+		0D1AC9F61B3AB16B00F2839A /* RYEmotionAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEmotionAttachment.m; sourceTree = "<group>"; };
+		0D1AC9F81B3AB16B00F2839A /* RYComposeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYComposeToolbar.h; sourceTree = "<group>"; };
+		0D1AC9F91B3AB16B00F2839A /* RYComposeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYComposeToolbar.m; sourceTree = "<group>"; };
+		0D1AC9FA1B3AB16B00F2839A /* RYEmotionGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEmotionGridView.h; sourceTree = "<group>"; };
+		0D1AC9FB1B3AB16B00F2839A /* RYEmotionGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEmotionGridView.m; sourceTree = "<group>"; };
+		0D1AC9FC1B3AB16B00F2839A /* RYEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEmotionKeyboard.h; sourceTree = "<group>"; };
+		0D1AC9FD1B3AB16B00F2839A /* RYEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEmotionKeyboard.m; sourceTree = "<group>"; };
+		0D1AC9FE1B3AB16B00F2839A /* RYEmotionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEmotionListView.h; sourceTree = "<group>"; };
+		0D1AC9FF1B3AB16B00F2839A /* RYEmotionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEmotionListView.m; sourceTree = "<group>"; };
+		0D1ACA001B3AB16B00F2839A /* RYEmotionPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEmotionPopView.h; sourceTree = "<group>"; };
+		0D1ACA011B3AB16B00F2839A /* RYEmotionPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEmotionPopView.m; sourceTree = "<group>"; };
+		0D1ACA021B3AB16B00F2839A /* RYEmotionPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYEmotionPopView.xib; sourceTree = "<group>"; };
+		0D1ACA031B3AB16B00F2839A /* RYEmotionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEmotionTextView.h; sourceTree = "<group>"; };
+		0D1ACA041B3AB16B00F2839A /* RYEmotionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEmotionTextView.m; sourceTree = "<group>"; };
+		0D1ACA051B3AB16B00F2839A /* RYEmotionToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEmotionToolbar.h; sourceTree = "<group>"; };
+		0D1ACA061B3AB16B00F2839A /* RYEmotionToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEmotionToolbar.m; sourceTree = "<group>"; };
+		0D1ACA071B3AB16B00F2839A /* RYEmotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEmotionView.h; sourceTree = "<group>"; };
+		0D1ACA081B3AB16B00F2839A /* RYEmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEmotionView.m; sourceTree = "<group>"; };
+		0D1ACA091B3AB16B00F2839A /* RYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTextView.h; sourceTree = "<group>"; };
+		0D1ACA0A1B3AB16B00F2839A /* RYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTextView.m; sourceTree = "<group>"; };
+		0D1ACAF11B3AB16B00F2839A /* RYEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEmotionTool.h; sourceTree = "<group>"; };
+		0D1ACAF21B3AB16B00F2839A /* RYEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEmotionTool.m; sourceTree = "<group>"; };
+		0DD60DB51B3BA5EB00D7B355 /* source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = source; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +156,7 @@
 		0D1AC9AB1B3AB13500F2839A /* sinaKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				0D1AC9D41B3AB16B00F2839A /* keyBoard */,
 				0D1AC9B01B3AB13500F2839A /* AppDelegate.h */,
 				0D1AC9B11B3AB13500F2839A /* AppDelegate.m */,
 				0D1AC9B31B3AB13500F2839A /* ViewController.h */,
@@ -117,6 +193,127 @@
 				0D1AC9C71B3AB13500F2839A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D1AC9D41B3AB16B00F2839A /* keyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0DD60DB51B3BA5EB00D7B355 /* source */,
+				0D1AC9D51B3AB16B00F2839A /* category */,
+				0D1AC9DC1B3AB16B00F2839A /* emojiKeyBoard */,
+				0D1ACAF01B3AB16B00F2839A /* tools */,
+			);
+			path = keyBoard;
+			sourceTree = "<group>";
+		};
+		0D1AC9D51B3AB16B00F2839A /* category */ = {
+			isa = PBXGroup;
+			children = (
+				0D1AC9D61B3AB16B00F2839A /* NSString+Emoji.h */,
+				0D1AC9D71B3AB16B00F2839A /* NSString+Emoji.m */,
+				0D1AC9D81B3AB16B00F2839A /* UIImage+resize.h */,
+				0D1AC9D91B3AB16B00F2839A /* UIImage+resize.m */,
+				0D1AC9DA1B3AB16B00F2839A /* UIView+Frame.h */,
+				0D1AC9DB1B3AB16B00F2839A /* UIView+Frame.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		0D1AC9DC1B3AB16B00F2839A /* emojiKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0D1AC9DD1B3AB16B00F2839A /* constDefine */,
+				0D1AC9DF1B3AB16B00F2839A /* libs */,
+				0D1AC9F21B3AB16B00F2839A /* modal */,
+				0D1AC9F71B3AB16B00F2839A /* view */,
+			);
+			path = emojiKeyBoard;
+			sourceTree = "<group>";
+		};
+		0D1AC9DD1B3AB16B00F2839A /* constDefine */ = {
+			isa = PBXGroup;
+			children = (
+				0D1AC9DE1B3AB16B00F2839A /* keyBoardConstDefine.h */,
+			);
+			path = constDefine;
+			sourceTree = "<group>";
+		};
+		0D1AC9DF1B3AB16B00F2839A /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				0D1AC9E01B3AB16B00F2839A /* MJExtension */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		0D1AC9E01B3AB16B00F2839A /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0D1AC9E11B3AB16B00F2839A /* MJConst.h */,
+				0D1AC9E21B3AB16B00F2839A /* MJConst.m */,
+				0D1AC9E31B3AB16B00F2839A /* MJExtension.h */,
+				0D1AC9E41B3AB16B00F2839A /* MJFoundation.h */,
+				0D1AC9E51B3AB16B00F2839A /* MJFoundation.m */,
+				0D1AC9E61B3AB16B00F2839A /* MJProperty.h */,
+				0D1AC9E71B3AB16B00F2839A /* MJProperty.m */,
+				0D1AC9E81B3AB16B00F2839A /* MJType.h */,
+				0D1AC9E91B3AB16B00F2839A /* MJType.m */,
+				0D1AC9EA1B3AB16B00F2839A /* NSObject+MJCoding.h */,
+				0D1AC9EB1B3AB16B00F2839A /* NSObject+MJCoding.m */,
+				0D1AC9EC1B3AB16B00F2839A /* NSObject+MJKeyValue.h */,
+				0D1AC9ED1B3AB16B00F2839A /* NSObject+MJKeyValue.m */,
+				0D1AC9EE1B3AB16B00F2839A /* NSObject+MJProperty.h */,
+				0D1AC9EF1B3AB16B00F2839A /* NSObject+MJProperty.m */,
+				0D1AC9F01B3AB16B00F2839A /* NSString+MJExtension.h */,
+				0D1AC9F11B3AB16B00F2839A /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		0D1AC9F21B3AB16B00F2839A /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				0D1AC9F31B3AB16B00F2839A /* RYEmotion.h */,
+				0D1AC9F41B3AB16B00F2839A /* RYEmotion.m */,
+				0D1AC9F51B3AB16B00F2839A /* RYEmotionAttachment.h */,
+				0D1AC9F61B3AB16B00F2839A /* RYEmotionAttachment.m */,
+			);
+			path = modal;
+			sourceTree = "<group>";
+		};
+		0D1AC9F71B3AB16B00F2839A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0D1AC9F81B3AB16B00F2839A /* RYComposeToolbar.h */,
+				0D1AC9F91B3AB16B00F2839A /* RYComposeToolbar.m */,
+				0D1AC9FA1B3AB16B00F2839A /* RYEmotionGridView.h */,
+				0D1AC9FB1B3AB16B00F2839A /* RYEmotionGridView.m */,
+				0D1AC9FC1B3AB16B00F2839A /* RYEmotionKeyboard.h */,
+				0D1AC9FD1B3AB16B00F2839A /* RYEmotionKeyboard.m */,
+				0D1AC9FE1B3AB16B00F2839A /* RYEmotionListView.h */,
+				0D1AC9FF1B3AB16B00F2839A /* RYEmotionListView.m */,
+				0D1ACA001B3AB16B00F2839A /* RYEmotionPopView.h */,
+				0D1ACA011B3AB16B00F2839A /* RYEmotionPopView.m */,
+				0D1ACA021B3AB16B00F2839A /* RYEmotionPopView.xib */,
+				0D1ACA031B3AB16B00F2839A /* RYEmotionTextView.h */,
+				0D1ACA041B3AB16B00F2839A /* RYEmotionTextView.m */,
+				0D1ACA051B3AB16B00F2839A /* RYEmotionToolbar.h */,
+				0D1ACA061B3AB16B00F2839A /* RYEmotionToolbar.m */,
+				0D1ACA071B3AB16B00F2839A /* RYEmotionView.h */,
+				0D1ACA081B3AB16B00F2839A /* RYEmotionView.m */,
+				0D1ACA091B3AB16B00F2839A /* RYTextView.h */,
+				0D1ACA0A1B3AB16B00F2839A /* RYTextView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0D1ACAF01B3AB16B00F2839A /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				0D1ACAF11B3AB16B00F2839A /* RYEmotionTool.h */,
+				0D1ACAF21B3AB16B00F2839A /* RYEmotionTool.m */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +396,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD60DB61B3BA5EB00D7B355 /* source in Resources */,
 				0D1AC9B81B3AB13500F2839A /* Main.storyboard in Resources */,
+				0D1ACB051B3AB16B00F2839A /* RYEmotionPopView.xib in Resources */,
 				0D1AC9BD1B3AB13500F2839A /* LaunchScreen.xib in Resources */,
 				0D1AC9BA1B3AB13500F2839A /* Images.xcassets in Resources */,
 			);
@@ -219,9 +418,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1ACBEA1B3AB16B00F2839A /* RYEmotionTool.m in Sources */,
+				0D1ACAF51B3AB16B00F2839A /* UIView+Frame.m in Sources */,
+				0D1ACB011B3AB16B00F2839A /* RYEmotionGridView.m in Sources */,
+				0D1ACB041B3AB16B00F2839A /* RYEmotionPopView.m in Sources */,
 				0D1AC9B51B3AB13500F2839A /* ViewController.m in Sources */,
+				0D1ACAF61B3AB16B00F2839A /* MJConst.m in Sources */,
 				0D1AC9B21B3AB13500F2839A /* AppDelegate.m in Sources */,
+				0D1ACAFC1B3AB16B00F2839A /* NSObject+MJProperty.m in Sources */,
+				0D1ACAFB1B3AB16B00F2839A /* NSObject+MJKeyValue.m in Sources */,
+				0D1ACB031B3AB16B00F2839A /* RYEmotionListView.m in Sources */,
+				0D1ACAF81B3AB16B00F2839A /* MJProperty.m in Sources */,
+				0D1ACB061B3AB16B00F2839A /* RYEmotionTextView.m in Sources */,
+				0D1ACB091B3AB16B00F2839A /* RYTextView.m in Sources */,
+				0D1ACB081B3AB16B00F2839A /* RYEmotionView.m in Sources */,
+				0D1ACAF31B3AB16B00F2839A /* NSString+Emoji.m in Sources */,
+				0D1ACAFE1B3AB16B00F2839A /* RYEmotion.m in Sources */,
+				0D1ACAFA1B3AB16B00F2839A /* NSObject+MJCoding.m in Sources */,
+				0D1ACAF91B3AB16B00F2839A /* MJType.m in Sources */,
+				0D1ACAFD1B3AB16B00F2839A /* NSString+MJExtension.m in Sources */,
+				0D1ACB001B3AB16B00F2839A /* RYComposeToolbar.m in Sources */,
 				0D1AC9AF1B3AB13500F2839A /* main.m in Sources */,
+				0D1ACAF41B3AB16B00F2839A /* UIImage+resize.m in Sources */,
+				0D1ACAF71B3AB16B00F2839A /* MJFoundation.m in Sources */,
+				0D1ACB071B3AB16B00F2839A /* RYEmotionToolbar.m in Sources */,
+				0D1ACAFF1B3AB16B00F2839A /* RYEmotionAttachment.m in Sources */,
+				0D1ACB021B3AB16B00F2839A /* RYEmotionKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +638,7 @@
 				0D1AC9CE1B3AB13500F2839A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D1AC9CF1B3AB13500F2839A /* Build configuration list for PBXNativeTarget "sinaKeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +647,7 @@
 				0D1AC9D11B3AB13500F2839A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
